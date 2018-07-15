@@ -40,8 +40,7 @@ def main(fftsize=8192):
         
         cvalues = []
         svalues = []
-        
-        for c in noisechan:
+            for c in noisechan:
             cvalue = i[c]
             cvalues.append(cvalue)
         for s in sigchans:
@@ -63,9 +62,7 @@ def main(fftsize=8192):
 
     plt.plot(idx, ts)
     plt.show()
-
-    print(len(x))
-    print(len(x[0]))
+    
 
 if __name__ == "__main__":
     main()
