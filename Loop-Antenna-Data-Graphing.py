@@ -36,7 +36,7 @@ def main(fftsize=8192):
         noisechan.append(nchan)
         nchan += 1
             
-    for i in x:
+    for i in x: 
         
         cvalues = []
         svalues = []
